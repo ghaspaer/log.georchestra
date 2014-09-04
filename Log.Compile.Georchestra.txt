@@ -1,4 +1,4 @@
-cd /home/gcc/Desktop/GeoIIG/Georchestra4/georchestra4/georchestra; JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 M2_HOME=/home/gcc/Desktop/GeoIIG/Georchestra4/georchestra4/georchestra/build-tools/maven /home/gcc/Desktop/GeoIIG/Georchestra4/georchestra4/georchestra/build-tools/maven/bin/mvn -Dmaven.test.skip=true -Ptemplate clean install
+cd /home/ghaspaer/Desktop/GeoIIG/Georchestra4/georchestra4/georchestra; JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 M2_HOME=/home/ghaspaer/Desktop/GeoIIG/Georchestra4/georchestra4/georchestra/build-tools/maven /home/gcc/Desktop/GeoIIG/Georchestra4/georchestra4/georchestra/build-tools/maven/bin/mvn -Dmaven.test.skip=true -Ptemplate clean install
 Scanning for projects...
 
 Some problems were encountered while building the effective model for org.geotools:gt-main:jar:9.2
@@ -5326,3 +5326,18 @@ Total time: 14:44.092s
 Finished at: Wed Sep 03 23:27:29 BOT 2014
 Final Memory: 367M/906M
 ------------------------------------------------------------------------
+Path ant: /usr/share/ant Version: 1.8.2-4
+Path maven: /home/ghaspaer/Desktop/GeoIIG/Georchestra4/georchestra4/georchestra/build-tools/maven/
+Apache Maven 3.0.3 (r1075438; 2011-02-28 13:31:09-0400)
+java -version: java version "1.7.0_65"
+OpenJDK Runtime Environment (IcedTea 2.5.1) (7u65-2.5.1-5~deb7u1)
+OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)
+Global execution options: -Dmaven.test.skip=true -Ptemplate clean
+/home/ghaspaer/netbeans-7.4/etc/netbeans.conf:
+netbeans_default_userdir="${DEFAULT_USERDIR_ROOT}/7.4"
+netbeans_default_cachedir="${DEFAULT_CACHEDIR_ROOT}/7.4"
+
+netbeans_default_options="-J-client -J-Xss2m -J-Xms64m -J-Xms128m -J-Xms512m -J-Xms768m -J-Dapple.laf.useScreenMenuBar=true -J-Dapple.awt.graphics.UseQuartz=true -J-Dsun.java2d.noddraw=true -J-Dsun.java2d.dpiaware=true -J-Dsun.zip.disableMemoryMapping=true"
+
+netbeans_jdkhome="/usr/lib/jvm/java-7-openjdk-amd64"
+---------------------------------------------------------------------------
